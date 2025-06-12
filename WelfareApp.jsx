@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Input } from "./components/ui/input.jsx";
-import { Button } from "./components/ui/button.jsx";
-import { Card, CardContent } from "./components/ui/card.jsx";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs.jsx";
+import { Input } from "./components/ui/input";
+import { Button } from "./components/ui/button";
+import { Card, CardContent } from "./components/ui/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs";
 
 export default function WelfareApp() {
   const [language, setLanguage] = useState("en");
